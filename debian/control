@@ -1,0 +1,37 @@
+Source: tree-sitter-vimdoc
+Section: libs
+Priority: optional
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/neovim/tree-sitter-vimdoc
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/tree-sitter-vimdoc
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/tree-sitter-vimdoc.git
+
+Package: libtree-sitter-vimdoc
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${misc:Depends},
+Description: Vim help file grammar for tree-sitter
+ tree-sitter-vimdoc is a Vim help file grammar for tree-sitter. It enables
+ syntax highlighting, structural editing, incremental parsing, and code
+ analysis in editors and tools.
+ .
+ This package contains the shared library.
+
+Package: libtree-sitter-vimdoc-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Depends:
+ libtree-sitter-vimdoc (= ${binary:Version})
+ ${misc:Depends},
+Description: Vim help file grammar for tree-sitter
+ tree-sitter-vimdoc is a Vim help file grammar for tree-sitter. It enables
+ syntax highlighting, structural editing, incremental parsing, and code
+ analysis in editors and tools.
+ .
+ This package contains development files.
