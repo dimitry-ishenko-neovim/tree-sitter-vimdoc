@@ -3,6 +3,7 @@ Source: https://github.com/neovim/tree-sitter-vimdoc
 Upstream-Name: tree-sitter-vimdoc
 
 Files: *
+Copyright: 2021 The tree-sitter-vimdoc authors
 License: Apache-2.0
 
 Files: debian/*
