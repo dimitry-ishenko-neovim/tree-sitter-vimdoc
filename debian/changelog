@@ -1,5 +1,13 @@
-tree-sitter-vimdoc (4.0.0-1) UNRELEASED; urgency=medium
+tree-sitter-vimdoc (4.0.0-1) unstable; urgency=medium
 
-  * Initial release.
+  [ Dimitry Ishenko ]
+  * Add Debian packaging
 
- -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Wed, 02 Jul 2025 12:48:00 -0400
+  [ Christian Clason ]
+  * release v4.0.0
+  * fix(grammar): add `'|'` as not taglink
+  * feat(parser)!: update to ABI 15
+  * ci: update test workflow, add release
+  * bump
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Wed, 02 Jul 2025 12:53:44 -0400
