@@ -1,3 +1,9 @@
+tree-sitter-vimdoc (4.0.0-3) unstable; urgency=medium
+
+  * d/copyright: simplify
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Wed, 02 Jul 2025 23:49:14 -0400
+
 tree-sitter-vimdoc (4.0.0-2) unstable; urgency=medium
 
   * d/copyright: missed
